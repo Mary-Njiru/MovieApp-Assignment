@@ -67,6 +67,47 @@ main{
 .hidden {
     display: none;
 }
+.overview {
+    display: none;
+    color: #eee;
+}
+.overview.show {
+    display: block;
+}
+.green {
+    color: green;
+  }
+  .orange {
+    color: orange;
+  }
+  .red {
+    color: red;
+  }
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 9%;
+    height: 100vh;
+    background-color: #373B69;
+    color: #fff;
+    padding: 1rem;
+    border-right: 1px solid #22254B;
+  }
+  .genres h3 {
+    margin-top: 0;
+  }
+  .genres ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .genres li {
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  .genres li:hover {
+    color: #7378C5;
+}
 
 
 
