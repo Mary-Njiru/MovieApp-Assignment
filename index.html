@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <aside>
+        <div class="genres">
+          <h3>Genres</h3>
+          <ul id="genre-list"></ul>
+        </div>
+      </aside>
+
+    <header>
+        <form id="form">
+            <input type="text" id="search" class="search" placeholder="Search">
+        </form>
+    </header>
+
+    <main id="main"></main>
+
+    <div class="overview hidden">
+        <h3>Overview</h3>
+        ${overview}
+      </div>
+
+     <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+
+  <script src="script.js"></script>
 </body>
 </html>
