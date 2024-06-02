@@ -35,7 +35,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    margin-left: 13.5%;
+    margin-left: 9.5%;
 }
 .movie{
     width: 300px;
