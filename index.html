@@ -7,22 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <aside class="hide-genres">
+    <div class="genres">
+        <div id="chill"><img src="Images/chill-removebg-preview.png" alt="chill" width="100px"></div>
+        <h2><b>CHILL</b></h2>
+        <h3>Genres</h3>
+        <ul id="genre-list"></ul>
+    </div>
+</aside>
+
     <header>
-        <aside>
-            <div class="nav-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="genre-list"></ul>
-        </aside>
         <form id="form">
             <input type="text" id="search" class="search" placeholder="Search">
         </form>
+        <button class="hamburger-menu">☰</button>
     </header>
 
     <main id="main"></main>
+    <div class="overview hidden">
+        <h3>Overview</h3>
+        ${overview}
+      </div>
 
-    <script src="script.js"></script>
+     <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
+
